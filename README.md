@@ -12,9 +12,9 @@
     <br />
     <a href="https://">View Demo</a>
     ||
-    <a href="https://github.com/Elldrigar/repo/issues">Report Bug</a>
+    <a href="https://github.com/Elldrigar/portfolio-2020/issues">Report Bug</a>
     ||
-    <a href="https://github.com/Elldrigar/repo/issues">Request Feature</a>
+    <a href="https://github.com/Elldrigar/portfolio-2020/issues">Request Feature</a>
   </p>
 
 
