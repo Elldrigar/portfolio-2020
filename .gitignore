@@ -1,0 +1,8 @@
+/node_modules
+# MAC FILES
+.DS_Store
+# GATSBY FILES
+.cache/
+public
+# IDE
+/.idea
