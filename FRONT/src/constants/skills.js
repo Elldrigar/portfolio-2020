@@ -5,7 +5,6 @@ import {
   FaHtml5,
   FaGitAlt,
   FaGithub,
-  FaNpm,
 } from 'react-icons/fa'
 import { RiGatsbyLine } from 'react-icons/ri'
 import {
@@ -18,7 +17,8 @@ import {
   DiNodejsSmall,
   DiNpm,
   DiTrello,
-  DiStackoverflow
+  DiStackoverflow,
+  DiTerminal
 } from 'react-icons/di'
 export default [
   {
@@ -31,7 +31,7 @@ export default [
       <DiJavascript1 className="skill-icon" />,
       <DiSass className="skill-icon" />,
     ],
-    text: `Html, Css, Sass, Bem, JavaScript ES6+`,
+    text: `Html, Css, Sass, JavaScript ES6+, Metodyka BEM,`,
   },
   {
     id: 2,
@@ -51,6 +51,7 @@ export default [
       <FaGithub className="skill-icon" />,
       <FaGitAlt className="skill-icon" />,
       <DiNpm className="skill-icon" />,
+      <DiTerminal className="skill-icon" />,
       <DiTrello className="skill-icon" />,
       <DiStackoverflow className="skill-icon" />,
     ],
