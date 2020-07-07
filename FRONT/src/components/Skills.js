@@ -13,7 +13,7 @@ const Skills = () => {
             <article key={id} className="skill">
               <h4>{title}</h4>
               <div className="underline"></div>
-              <p>{skills}</p>
+              <p className="skill-icons">{skills}</p>
               <p>{text}</p>
             </article>
           )
