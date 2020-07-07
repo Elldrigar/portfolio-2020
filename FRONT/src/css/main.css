@@ -491,7 +491,7 @@ Hero
 Services
 ===============
 */
-.service {
+.skill {
   background: var(--clr-white);
   padding: 3rem 1.5rem;
   margin-bottom: 2rem;
@@ -500,32 +500,32 @@ Services
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-.service-icon {
+.skill-icon {
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
-.service .underline {
+.skill .underline {
   width: 3rem;
   height: 0.12rem;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-.service p {
+.skill p {
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-.service:hover {
+.skill:hover {
   background: var(--clr-primary-5);
   color: var(--clr-primary-9);
 }
-.service:hover p {
+.skill:hover p {
   color: var(--clr-primary-9);
 }
-.service:hover .underline {
+.skill:hover .underline {
   background: var(--clr-primary-9);
 }
 @media screen and (min-width: 676px) {
-  .services-center {
+  .skills-center {
     display: grid;
     grid-template-columns: 1fr 1fr;
     -webkit-column-gap: 2rem;
@@ -533,9 +533,9 @@ Services
     column-gap: 2rem;
   }
 }
-@media screen and (min-width: 992px) {
-  .services-center {
-    grid-template-columns: 1fr 1fr 1fr;
+@media screen and (min-width: 1150px) {
+  .skills-center {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
