@@ -6,10 +6,12 @@ const Projects = ({ projects, title, showLink }) => {
   return (
     <section className="section projects">
       <Title title={title} />
-      <div className="section-center projects-center">
-
-      </div>
-      {showLink && <Link to="/projects" className="btn center-btn">Wszystkie Projekty</Link>}
+      <div className="section-center projects-center"></div>
+      {showLink && (
+        <Link to="/projects" className="btn center-btn">
+          Wszystkie Projekty
+        </Link>
+      )}
     </section>
   )
 }
