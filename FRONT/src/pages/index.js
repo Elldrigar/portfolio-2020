@@ -9,7 +9,7 @@ import Blogs from '../components/Blogs'
 
 export default ({ data }) => {
   const {
-    allStrapiProjects: { node: projects },
+    allStrapiProjects: { nodes: projects },
   } = data
   console.log(data)
   return (
