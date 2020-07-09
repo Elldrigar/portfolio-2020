@@ -10,6 +10,7 @@ import Blogs from '../components/Blogs'
 export default ({ data }) => {
   const {
     allStrapiProjects: { nodes: projects },
+    allStrapiBlogs: { nodes: blogs },
   } = data
   console.log(data)
   return (
@@ -18,6 +19,7 @@ export default ({ data }) => {
       <Skills />
       <Jobs />
       <Projects projects={projects} title="Wybrane Projekty" showLink />
+      <Blogs blogs={blogs} title="Blog" showLink />
     </Layout>
   )
 }
