@@ -10,7 +10,9 @@ const ComponentName = ({ data }) => {
     <Layout>
       <section className="blog-template">
         <div className="section-center">
-          <article className="blog-content">{content}</article>
+          <article className="blog-content">
+            <ReactMarkdown source={content} />
+          </article>
         </div>
       </section>
     </Layout>
