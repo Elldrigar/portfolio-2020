@@ -852,7 +852,10 @@ Footer
   font-weight: normal;
   text-transform: uppercase;
 }
-.footer h4 span {
+.footer h5 {
+  color: var(--clr-primary-5);
+}
+.footer span {
   color: var(--clr-primary-5);
 }
 .footer-links {
