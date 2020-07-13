@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Gawron.me Portfolio',
-    description: 'This is WebDev Portfolio Site',
+    description: 'Portfolio plus blog',
     author: '@Elldrigar',
     twitterUsername: '@Elldrigar',
     image: '/twitter-img.png',
@@ -28,19 +28,17 @@ module.exports = {
         singleTypes: [`about`],
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
-    //   options: {
-    //     fonts: [
-    //       {
-    //         family: `Roboto`,
-    //         variants: [`400`, `700`],
-    //       },
-    //       {
-    //         family: `Open Sans`,
-    //       },
-    //     ],
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Montserrat`,
+            subsets: [`latin-ext`],
+            variants: [`100`, `300`, `500`],
+          }
+        ],
+      },
+    },
   ],
 }
