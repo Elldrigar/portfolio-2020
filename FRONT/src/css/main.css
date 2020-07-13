@@ -910,8 +910,11 @@ About Page
   padding: 7rem 0;
 }
 .about-img {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 2rem;
-  height: 25rem;
+  height: auto;
+  max-width: 80vw;
 }
 .about-text .section-title {
   margin-bottom: 2rem;
@@ -950,8 +953,11 @@ About Page
     column-gap: 4rem;
   }
   .about-img {
+    margin-left: 0;
+    margin-right: 0;
     grid-column: 1 / span 5;
     margin-bottom: 0;
+    height: 35rem;
   }
   .about-text {
     grid-column: 6 / -1;
