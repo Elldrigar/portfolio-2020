@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 const data = [
   {
     id: 1,
-    text: 'home',
+    text: 'strona główna',
     url: '/',
   },
   {

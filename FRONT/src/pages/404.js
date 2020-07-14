@@ -6,6 +6,7 @@ import SEO from '../components/SEO'
 const Error = () => {
   return (
     <Layout>
+      <SEO title="Koniec Internetu" />
       <main className="error-page">
         <div className="error-container">
           <h1>Dotarłeś do końca Internetu!</h1>

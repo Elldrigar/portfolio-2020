@@ -6,15 +6,16 @@ import Skills from '../components/Skills'
 import Jobs from '../components/Jobs'
 import Projects from '../components/Projects'
 import Blogs from '../components/Blogs'
+import SEO from '../components/SEO'
 
 export default ({ data }) => {
   const {
     allStrapiProjects: { nodes: projects },
     allStrapiBlogs: { nodes: blogs },
   } = data
-  console.log(data)
   return (
     <Layout>
+      <SEO title="Strona Główna" description="Strona główna Portfolio Front-end developera"/>
       <Hero />
       <Skills />
       <Jobs />
