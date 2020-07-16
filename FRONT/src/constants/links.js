@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 const data = [
   {
     id: 1,
-    text: 'strona główna',
+    text: 'start',
     url: '/',
   },
   {
@@ -35,7 +35,6 @@ const tempLinks = data.map(link => {
     </li>
   )
 })
-// I KNOW WE CAN COMBINE IT !!!!!
 
 export default ({ styleClass }) => {
   return (
