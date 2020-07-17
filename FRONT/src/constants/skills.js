@@ -5,6 +5,7 @@ import {
   FaHtml5,
   FaGitAlt,
   FaGithub,
+  FaFigma,
 } from 'react-icons/fa'
 import { RiGatsbyLine } from 'react-icons/ri'
 import {
@@ -18,7 +19,7 @@ import {
   DiNpm,
   DiTrello,
   DiStackoverflow,
-  DiTerminal
+  DiTerminal,
 } from 'react-icons/di'
 export default [
   {
@@ -29,19 +30,20 @@ export default [
       <DiCss3 className="skill-icon" />,
       <DiHtml5 className="skill-icon" />,
       <DiJavascript1 className="skill-icon" />,
+      <DiReact className="skill-icon" />,
       <DiSass className="skill-icon" />,
     ],
-    text: `Html, Css, Sass, JavaScript ES6+, Metodyka BEM,`,
+    text: `HTML, CSS, Sass/Scss, JavaScript-ES6+, RESTful-API, React, GraphQL`,
   },
   {
     id: 2,
     icon: <FaSketch className="skill-icon" />,
     title: 'Back-End',
     skills: [
-      <DiMongodb className="skill-icon" />,
       <DiNodejsSmall className="skill-icon" />,
+      <DiMongodb className="skill-icon" />,
     ],
-    text: `Node.js - Express, MongoDB, stack MERN`,
+    text: `Node.js - Express, MongoDB, Strapi`,
   },
   {
     id: 3,
@@ -52,10 +54,11 @@ export default [
       <FaGitAlt className="skill-icon" />,
       <DiNpm className="skill-icon" />,
       <DiTerminal className="skill-icon" />,
+      <FaFigma className="skill-icon" />,
       <DiTrello className="skill-icon" />,
       <DiStackoverflow className="skill-icon" />,
     ],
-    text: `Git/Github, NPM, Trello, StackOverflow`,
+    text: `Git/Github, NPM, Trello, StackOverflow, Webstorm, Figma`,
   },
   {
     id: 4,
@@ -65,6 +68,6 @@ export default [
       <DiReact className="skill-icon" />,
       <RiGatsbyLine className="skill-icon" />,
     ],
-    text: `React.js oraz Gatsby.js`,
+    text: `React, Gatsby, Typescript`,
   },
 ]
