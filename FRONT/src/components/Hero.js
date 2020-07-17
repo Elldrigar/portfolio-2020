@@ -3,7 +3,7 @@ import Image from 'gatsby-image'
 import { Link } from 'gatsby'
 import { graphql, useStaticQuery } from 'gatsby'
 import SocialLinks from '../constants/socialLinks'
-// ...GatsbyImageSharpFluid
+
 const query = graphql`
   {
     file(relativePath: { eq: "ja_hero_img.png" }) {
@@ -28,7 +28,7 @@ const Hero = () => {
       <div className="section-center hero-center">
         <article className="hero-info">
           <div>
-            <div className="underline"></div>
+            <div className="underline" />
             <h1>
               Cześć!
               <br />
@@ -38,6 +38,14 @@ const Hero = () => {
             <Link to="/contact" className="btn">
               Kontakt
             </Link>
+            <a
+              className="btn"
+              href="https://gawron.me/artur_gawron_resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              pobierz CV
+            </a>
             <SocialLinks />
           </div>
         </article>
