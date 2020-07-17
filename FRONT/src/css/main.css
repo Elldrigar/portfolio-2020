@@ -6,7 +6,6 @@ Variables
 
 :root {
   /* dark shades of primary color*/
-  /* --clr-primary-1: hsl(43, 86%, 17%); */
   --clr-primary-1: #0a5b99;
   --clr-primary-2: #0c72c0;
   --clr-primary-3: #0f89e6;
@@ -31,7 +30,6 @@ Variables
   --clr-red-dark: #ff595e;
   --clr-red-light: #ffa69e;
   --clr-white: #fff;
-  /*--ff-primary: 'Josefin Sans', sans-serif;*/
   --ff-primary: 'Montserrat', sans-serif;
   --ff-secondary: 'Open Sans', sans-serif;
   --transition: all 0.3s linear;
@@ -136,6 +134,7 @@ p {
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
+  margin-right: 5px;
 }
 .btn:hover {
   color: var(--clr-primary-1);
@@ -338,7 +337,7 @@ Sidebar Animation
 ===============
 */
 .sidebar-links li {
-  animation: slideRight 0.5s ease-in-out 0.3s forwards;
+  animation: slideRight 0.4s ease-in-out 0.3s forwards;
 }
 .sidebar-links li:nth-of-type(1) {
   animation-delay: 0.25s;
@@ -367,7 +366,7 @@ Sidebar Animation
 }
 .sidebar-icons li {
   opacity: 0;
-  animation: slideUp 0.5s ease-in-out 0.3s forwards;
+  animation: slideUp 0.4s ease-in-out 0.3s forwards;
 }
 .sidebar-icons li:nth-of-type(1) {
   animation-delay: 0.25s;
@@ -681,7 +680,7 @@ Projects
   font-size: 1.5rem;
 }
 .project-desc {
-  word-spacing: 15px;
+  word-spacing: 5px;
   color: var(--clr-grey-3);
 }
 .project-stack {
@@ -711,6 +710,11 @@ Projects
 }
 .project-icon:hover {
   color: var(--clr-primary-1);
+}
+@media (max-width: 991px) {
+  .project-img::after {
+    opacity: 0;
+  }
 }
 @media screen and (min-width: 576px) {
   .project-img {
@@ -1022,8 +1026,11 @@ Blog Template
 }
 
 .blog-template h1,
-.blog-template h2 {
+.blog-template h2,
+.blog-template h3,
+.blog-template h4{
   text-align: center;
+  margin-bottom: 30px;
 }
 .blog-template ul {
   margin-top: 2rem;
@@ -1056,4 +1063,7 @@ Blog Template
   width: 15rem;
   height: 15rem;
   margin: 3rem 0;
+}
+.blog-template p {
+  margin-top: 30px;
 }
