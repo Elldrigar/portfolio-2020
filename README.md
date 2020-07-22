@@ -61,6 +61,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Artur Gawron - [@Elldrigar](https://twitter.com/Elldrigar) - artur@gawron.me - [Linkedin][linkedin-url]
 
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=Elldrigar)](https://github.com/anuraghazra/github-readme-stats)
 
 
 
